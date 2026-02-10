@@ -66,10 +66,10 @@ const LogoCarousel = () => {
 
   return (
     <section className="w-full bg-card py-6 sm:py-10 overflow-hidden">
-      <h2 className="text-center font-heading text-xl sm:text-2xl font-bold text-foreground mb-2 px-4">
-        Our Brands, Work with us now
-      </h2>
-      <div className="flex justify-center mb-6 sm:mb-8 mt-3 sm:mt-4 px-4">
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-6 sm:mb-8 px-4">
+        <h2 className="text-center sm:text-left font-heading text-xl sm:text-2xl font-bold text-foreground">
+          Our Brands, Work with us now
+        </h2>
         <Dialog open={open} onOpenChange={setOpen}>
           <DialogTrigger asChild>
             <Button className="bg-[#0d9a4b] hover:bg-[#0b7f3e] text-white px-6 py-2 text-base font-semibold">
